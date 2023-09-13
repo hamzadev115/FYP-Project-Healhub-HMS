@@ -1,0 +1,502 @@
+@media (min-width: 992px) and (max-width:1200px) {
+    .navbar .nav-item {
+        margin: 5px;
+    }
+
+    .navbar .nav-link {
+        color: var(--main-color);
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* ----------Home Page----------- */
+    .carousel-inner {
+        border-radius: 0px 0px 30px 0px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .about {
+        margin: 50px 100px 50px 100px;
+    }
+
+    .choosesec2 {
+        margin-top: 30px;
+
+    }
+
+    .faq {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .dr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .overview-img img {
+        margin-left: 0px;
+    }
+}
+
+
+
+
+/* For Tablet Devices */
+@media (min-width: 768px) and (max-width:992px) {
+
+    /* ----------Home Page----------- */
+    .carousel-inner {
+        border-radius: 0px 0px 20px 0px;
+    }
+
+    .about {
+        margin: 50px 50px 50px 50px;
+    }
+
+    .topcard {
+        padding: 10px;
+    }
+
+    .right-sec {
+        margin-top: 60px;
+    }
+
+    .choosesec2 {
+        margin-top: 30px;
+        margin-left: 0px;
+
+    }
+
+    .choose img {
+        margin-left: 30px;
+    }
+
+    .faq {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /* ------------Abou Page CSS-------- */
+    .overview-img img {
+        width: 100%;
+    }
+
+    .processor {
+        margin-top: -50px;
+    }
+
+    /* Service */
+    .service {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 5px 10px 5px;
+    }
+
+    .dr-three {
+        margin-top: 30px;
+    }
+
+    .dr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .name,
+    .email,
+    .mobile,
+    .mesg {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-right: -200px;
+    }
+}
+
+
+@media (min-width: 426px) and (max-width:769px) {
+    .overview-img img {
+        margin-left: 0px;
+    }
+}
+
+/* For Mobile Devices */
+@media (min-width: 425px) and (max-width:768px) {
+
+    /* ----------Home Page----------- */
+    .carousel-inner {
+        border-radius: 0px 0px 10px 0px;
+    }
+
+    .about {
+        margin: 10px 20px 20px 10px;
+    }
+
+    .topcard {
+        padding: 10px;
+    }
+
+    .right-sec {
+        margin-top: 10px;
+    }
+
+    .right-sec h2 {
+        color: var(--white);
+        font-family: var(--font-family);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 2.3rem;
+    }
+
+    .right-sec p {
+        color: var(--white);
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.7rem;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .specialist {
+        background-color: var(--main-color);
+        padding: 50px 10px;
+        margin-top: 30px;
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .doctorsec-btn {
+        width: 50%;
+        background-color: var(--second-color);
+        padding: 10px 40px 10px 40px;
+        border-radius: 8px;
+    }
+
+    .choosesec2 {
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+    .choose h2 {
+        font-size: 20px;
+    }
+
+    .choose img {
+        margin-left: 30px;
+    }
+
+    .footer span {
+        color: var(--white);
+        margin-left: 0px;
+    }
+
+    .icons {
+        margin-right: 0px;
+    }
+
+    .faq {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* ------------Abou Page CSS-------- */
+    .overview-img img {
+        width: 100%;
+    }
+
+    .who-we-are {
+        padding: 50px 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .who h2 {
+        font-size: 25px;
+        line-height: 1.9rem;
+    }
+
+    /* Service  */
+    .service {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 5px 10px 5px;
+    }
+
+    .service a {
+        margin-bottom: 10px;
+    }
+
+    .service-img {
+        padding: 20px;
+    }
+
+    .service-btn a {
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .Top-header {
+        display: none !important;
+
+    }
+
+    /* Doctor CSS */
+    .doctor {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 5px 10px 5px;
+    }
+
+    .doctor a {
+        margin-bottom: 10px;
+    }
+
+    .doctor-img {
+        padding: 20px;
+    }
+
+    .doctor-btn a {
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .dr {
+        margin-left: 20px;
+    }
+
+    .name,
+    .email,
+    .mobile,
+    .mesg {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+
+    .overview-img img {
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:425px) {
+
+    /* ----------Home Page----------- */
+    .carousel-inner {
+        border-radius: 0px 0px 8px 0px;
+    }
+
+    .about {
+        margin: 20px 5px 20px 5px;
+    }
+
+    .cards {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .clinic h2 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 36px;
+        margin-right: 36px;
+        width: 80%;
+    }
+
+    .overview-img img {
+        margin-left: 0px;
+    }
+
+
+    .clinic img {
+        width: 100%;
+        height: auto;
+        z-index: 0;
+    }
+
+    .maincard {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .card {
+        margin-left: 10px;
+    }
+
+    .right-sec {
+        margin-top: 10px;
+    }
+
+    .right-sec h2 {
+        color: var(--white);
+        font-family: var(--font-family);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 2.3rem;
+    }
+
+    .right-sec p {
+        color: var(--white);
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.7rem;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .specialist {
+        background-color: var(--main-color);
+        padding: 50px 0px;
+        margin-top: 30px;
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .doctorsec-btn {
+        width: 60%;
+        background-color: var(--second-color);
+        padding: 10px 40px 10px 40px;
+        border-radius: 8px;
+    }
+
+    .choosesec2 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .choose img {
+        margin-left: 30px;
+    }
+
+    .choose h2 {
+        font-size: 20px;
+    }
+
+    .footer span {
+        color: var(--white);
+        margin-left: 0px;
+    }
+
+    .icons {
+        margin-right: 0px;
+    }
+
+    .faq {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* ------------Abou Page CSS-------- */
+    .otherpage-hero {
+        background-color: var(--main-color);
+        width: 100%;
+        height: 200px;
+    }
+
+    .otherpage-hero h2 {
+        font-size: 30px;
+        padding-top: 80px;
+    }
+
+    .overview-img img {
+        width: 100%;
+    }
+
+    .who-we-are {
+        padding: 50px 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .who h2 {
+        font-size: 25px;
+        line-height: 1.9rem;
+    }
+
+    /* Services */
+    .service {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 5px 10px 5px;
+    }
+
+    .service a {
+        margin-bottom: 10px;
+    }
+
+    .service-img {
+        padding: 20px;
+    }
+
+    .service-btn a {
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .Top-header {
+        display: none !important;
+
+    }
+
+    /* Doctor CSS */
+    .doctor {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 5px 10px 5px;
+    }
+
+    .doctor a {
+        margin-bottom: 10px;
+    }
+
+    .doctor-img {
+        padding: 20px;
+    }
+
+    .doctor-btn a {
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .dr {
+        margin-left: 20px;
+    }
+
+    .dr-btn {
+        margin-bottom: 30px;
+    }
+
+    .dr h2 {
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+    .name,
+    .email,
+    .mobile,
+    .mesg {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+}

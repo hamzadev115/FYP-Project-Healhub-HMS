@@ -1,0 +1,1201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 600;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+:root {
+    --main-color: #104163;
+    --second-color: #084D22;
+    --black: #000;
+    --white: #fff;
+    --silver: #f5f5f5;
+    --font-family: "Montserrat";
+}
+
+button {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+/* Header CSS */
+.Top-header {
+    background-color: var(--main-color);
+}
+
+.t-phone {
+    font-size: 14px;
+    font-family: var(--font-family);
+}
+
+.t-location {
+    padding-left: 58px;
+}
+
+.t-location span {
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.mainheader {
+    background-color: var(--silver);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    margin-top: -5px;
+}
+
+.navbar img {
+    width: 150px;
+    height: auto;
+}
+
+.navbar .nav-item {
+    margin: 10px;
+}
+
+.navbar .nav-link {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: var(--second-color);
+    transition: all ease;
+    text-decoration: underline;
+    text-underline-offset: 5px !important;
+    text-underline-offset: 7px !important;
+    transform: scale(1.01);
+}
+
+.navbar .appointment {
+    background-color: var(--main-color);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.navbar .appointment a {
+    color: var(--white) !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.navbar .appointment:hover {
+    background-color: var(--second-color);
+    text-decoration: none !important
+}
+
+.navbar .dropdown-menu {
+    background-color: var(--silver);
+}
+
+.navbar .dropdown-item {
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #104163;
+    color: var(--white);
+}
+
+.mainheader .navbar-toggler {
+    border: 0;
+    box-shadow: none;
+    line-height: 2;
+}
+
+.fa-solid.fa-bars.navbar-toggler-icon {
+    color: var(--black);
+}
+
+.header-scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 8px #c8c6c687;
+    transition: 0.3s ease-in-out;
+    background-color: var(--white);
+}
+
+/* Header CSS End */
+
+/* ---------------------------------Home Page CSS-------------------------------- */
+
+/* Slider */
+.carousel-caption {
+    bottom: 30%;
+}
+
+.carousel .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    z-index: 99;
+}
+
+.carousel-indicators,
+.carousel-item,
+.carousel-caption,
+.carousel-control-next,
+.carousel-control-prev {
+    z-index: 100;
+}
+
+.carousel-item a {
+    display: flex;
+    width: 15%;
+}
+
+.sliderbtn {
+    border: 2px solid var(--white);
+    color: var(--white);
+    padding: 10px 30px 10px 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: var(--white);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.sliderbtn:hover {
+    background-color: var(--white);
+    color: var(--black);
+    transform: scale(1.05);
+    transition: all .4s ease;
+}
+
+/* slider end */
+
+/* Card CSS */
+.maincard {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.topcard {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #c8c6c6;
+    padding: 20px;
+    transition: all .4s;
+
+}
+
+.topcard:hover {
+    background-color: var(--second-color);
+    color: var(--white);
+}
+
+.topcard h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.topcard img {
+    width: 70px;
+    height: auto;
+}
+
+/* Card End */
+
+/* About Section on Home CSS */
+.about {
+    margin: 50px 200px 50px 200px;
+}
+
+.about p {
+    font-size: 15px;
+}
+
+.about h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--second-color);
+}
+
+.about h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    margin-bottom: 10px;
+}
+
+/* About setion end */
+
+
+/* Search form */
+.find-from {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: var(--main-color);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.search {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.find {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.form-s {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-s select {
+    width: 50%;
+    padding: 11px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #f5f5f5;
+    color: #000;
+    border-radius: 7px;
+}
+
+.form-s select option {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.select {
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+}
+
+.searchbtn {
+    padding: 10px 40px 10px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #fff;
+    color: #000;
+    border-radius: 7px;
+}
+
+.searchbtn:hover {
+    background-color: #EEE;
+    transform: scale(1.05);
+    transition: all .4s ease;
+}
+
+/* Services Section Start */
+.services {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.services h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--second-color);
+}
+
+.services h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+}
+
+/* Clinics Start */
+.clinic {
+    margin-top: -20px;
+}
+
+.clinic h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--main-color);
+    text-transform: capitalize;
+}
+
+.serbtn {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--main-color);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
+
+.serbtn:hover {
+    background-color: var(--second-color);
+    transition: all .4s ease;
+    border: none;
+}
+
+.clinic-btn button {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--main-color);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.clinic-btn button:hover {
+    background-color: var(--second-color);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.card {
+    border-radius: 7px;
+    border: 2px solid var(--main-color);
+}
+
+.card:hover {
+    border-radius: 15px;
+    border: 2px solid var(--second-color);
+    transition: all .3s ease-in;
+    box-shadow: 0px 5px 20px #c8c6c69f;
+}
+
+.card-img-top:hover {
+    border-radius: 15px 15px 0px 0px;
+    transition: all .3s ease-in;
+}
+
+/* CLinics END */
+
+/* Doctor CSS Start */
+.doctor {
+    margin-top: 100px;
+}
+
+.specialist {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.specialist {
+    background-color: var(--main-color);
+    padding: 100px 50px;
+    margin-top: 30px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.specialist h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.specialist h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+
+.right-sec {
+    margin-top: 50px;
+}
+
+.right-sec h2 {
+    color: var(--white);
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2.3rem;
+}
+
+.right-sec p {
+    color: var(--white);
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7rem;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.doctorsec-btn {
+    width: 30%;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    color: #fff;
+    border: 2px solid var(--white);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.doctorsec-btn:hover {
+    background-color: var(--white);
+
+}
+
+.doctorsec-btn button:hover {
+    background-color: var(--white);
+    color: var(--main-color);
+
+}
+
+.doctorsec-btn button {
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.specialist img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.docbtn {
+    border: 2px solid var(--white);
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.docbtn:hover {
+    background-color: #EEE;
+    color: #000;
+    border: 2px solid #EEE;
+    transform: scale(1.04);
+    transition: all .3s ease;
+}
+
+.doctorh2 {
+    font-size: 23px !important;
+    font-weight: 600;
+    color: white;
+    font-family: var(--font-family);
+}
+
+.doctorh3 {
+    font-size: 18px !important;
+    font-weight: 500;
+    color: white;
+    font-family: var(--font-family);
+}
+
+/* Doctor CSS ENd */
+
+/* Why Choose Start */
+.choose {
+    margin: 100px 0px;
+}
+
+.choosesec2 {
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.choose img {
+    width: 130%;
+    border-radius: 5px;
+}
+
+.choose h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--main-color);
+    font-family: var(--font-family);
+    margin-bottom: 10px;
+}
+
+.choose ul li {
+    font-size: 15px;
+    color: var(--black);
+    font-family: var(--font-family);
+    line-height: 2.5rem;
+    font-weight: 500;
+}
+
+.discover {
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.discover:hover {
+    background-color: var(--second-color);
+    border: none;
+}
+
+
+/* why Choose End */
+
+/* Total Section Start */
+.total {
+    background-color: var(--main-color);
+    margin: 100px 0px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.total h2 {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.total h3 {
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* FAQS */
+.faq {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.faq h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--second-color);
+}
+
+.faq h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.location {
+    margin-bottom: 30px;
+}
+
+.accordion-button {
+    background-color: #f5f5f5;
+    color: var(--main-color);
+}
+
+.accordion-button:hover {
+    background-color: var(--main-color);
+    color: var(--white);
+}
+
+.accordion-button:active {
+    background-color: var(--main-color);
+    color: var(--white);
+}
+
+.accordion-body {
+    font-size: 16px;
+}
+
+.faq {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.map {
+    margin-bottom: -5px;
+}
+
+/* FAQ ENd */
+
+
+/* ----------------------------------------- About Page CSS------------------------------ */
+.otherpage-hero {
+    background-color: var(--main-color);
+    width: 100%;
+    margin-bottom: 50px;
+    padding: auto;
+    padding: 50px;
+}
+
+.otherpage-hero h2 {
+    color: var(--white);
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.overview {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.overview-info h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.overview-info p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.overview-img img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.who-we-are {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.who h2 {
+    color: var(--white);
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.who p {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.9rem;
+}
+
+.mission {
+    margin: 100px 0px;
+}
+
+.mision-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.mission-info h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.mission-info li {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.promise {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.p-h {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--main-color);
+    text-transform: capitalize;
+}
+
+.caring {
+    margin-top: 50px;
+}
+
+.caring h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.processor h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.facilities h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2.0rem;
+}
+
+.processor {
+    margin-top: 64px;
+}
+
+/* ---------------------Service Page CSS---------------- */
+.service {
+    margin-bottom: 100px;
+}
+
+.service a {
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+}
+
+.service a:hover {
+    background-color: var(--second-color);
+}
+
+.service-img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 150px;
+}
+
+.service-info h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.service-info p {
+    font-size: 16px;
+    line-height: 1.6rem;
+    color: var(--black);
+    margin-bottom: 20px;
+
+}
+
+.service-img-2 img {
+    width: 80%;
+    height: auto;
+}
+
+.sbtn {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #104163;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+}
+
+.sbtn:hover {
+    width: 100%;
+    margin-top: 10px;
+    background-color: var(--second-color);
+    border-radius: 5px;
+    border: none;
+}
+
+.designation {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    min-height: 25px;
+}
+
+.get {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.service-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Doctor CSS */
+.dr {
+    margin: 100px 0px;
+}
+
+.dr-img img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dr h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.dr h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: -100px;
+}
+
+.dr-btn a {
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 30px;
+    padding: 12px 40px 12px 40px;
+    border-radius: 5px;
+}
+
+.dr-btn a:hover {
+    background-color: var(--second-color);
+}
+
+/* -------------Contact Page----------- */
+.contact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contact hr {
+    width: 30%;
+}
+
+.contact hr:not([size]) {
+    height: 4px;
+    color: var(--main-color);
+    opacity: 100%;
+    margin-top: -20px;
+}
+
+.name,
+.email,
+.mobile,
+.mesg {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: -250px;
+}
+
+input.form-control {
+    border: 2px solid var(--main-color);
+    padding: 10px;
+    box-shadow: 0px 5px 7px #c8c6c687;
+}
+
+.form-control:focus {
+    color: var(--black);
+    background-color: var(#79aa2f);
+    border-color: var(--second-color);
+    box-shadow: 0px 5px 7px #c8c6c687;
+}
+
+textarea.form-control {
+    border: 2px solid var(--main-color);
+    padding: 10px;
+    box-shadow: 0px 5px 7px #c8c6c687;
+}
+
+.submitbtn {
+    background-color: var(--main-color);
+    color: var(--white);
+    padding: 12px 30px 12px 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+}
+
+.submitbtn:hover {
+    background-color: var(--second-color);
+    border: none;
+    box-shadow: 0px 5px 7px #c8c6c687;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff !important;
+    background-color: var(--second-color) !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: var(--second-color) !important;
+    box-shadow: 0 0 0 0.25rem var(--second-color) !important;
+}
+
+/* -------------------Doctor BIO--------------- */
+.bio {
+    margin: 100px 10px;
+}
+
+.bio h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.bio h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.bio p {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black);
+    line-height: 1.7rem;
+}
+
+.bio ul li {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black);
+    line-height: 1.5rem;
+}
+
+.bio-spec {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 1.7rem;
+}
+
+.bio-img img {
+    width: 330px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.bio-spc h5 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.7rem;
+    margin-top: 15px;
+}
+
+.bio-btn a {
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 15px;
+    padding: 12px 40px 12px 40px;
+    border-radius: 7px;
+}
+
+.bio-btn a:hover {
+    background-color: var(--second-color);
+}
+
+/* Footer Section */
+.footer {
+    background-color: var(--main-color);
+    min-height: 300px;
+    padding-top: 40px;
+}
+
+.footer p,
+i,
+a,
+h6 {
+    color: var(--white);
+}
+
+.footer a:hover {
+    color: #f5f5f5;
+    text-decoration: underline;
+    text-underline-offset: 3px !important;
+    text-underline-offset: 7px !important;
+
+}
+
+.footer p:hover {
+    color: #f5f5f5;
+}
+
+.footer span {
+    color: var(--white);
+    margin-left: 58px;
+}
+
+.icons {
+    margin-right: 105px;
+}
+
+.icons i {
+    color: var(--white);
+}
+
+.icons i:hover {
+    color: #f5f5f5;
+}
+
+.fs2 i {
+    color: var(--white);
+}
+
+.address:hover {
+    color: #f5f5f5;
+}
+
+.details:hover {
+    color: #f5f5f5;
+}
+
+.fs3 {
+    color: var(--white);
+}
+
+.footer h6 {
+    font-size: 17px;
+    font-weight: 600 !important;
+    line-height: 1.4rem;
+}
+
+.Copyright {
+    font-size: 13px;
+}
+
+.footerlogo {
+    width: 200px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+/* Fade-up animation */
+.fade-up-animation {
+    animation-name: fade-up;
+    animation-duration: 1s;
+}
+
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Fade-left animation */
+.fade-left-animation {
+    animation-name: fade-left;
+    animation-duration: 1s;
+}
+
+@keyframes fade-left {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Zoom-in animation */
+.zoom-in-animation {
+    animation-name: zoom-in;
+    animation-duration: 1s;
+}
+
+@keyframes zoom-in {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
